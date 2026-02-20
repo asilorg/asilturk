@@ -31,6 +31,10 @@ export default defineNuxtConfig({
           searchDepth: 1
         }
       }
+    },
+    database: {
+      type: 'sqlite',
+      filename: ':memory:'
     }
   },
 
