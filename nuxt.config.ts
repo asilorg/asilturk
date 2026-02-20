@@ -12,8 +12,14 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n'
   ],
 
+  ssr: true,
+
   devtools: {
     enabled: true
+  },
+
+  app: {
+    baseURL: '/'
   },
 
   css: ['~/assets/css/main.css'],
@@ -31,13 +37,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-07-11',
 
   nitro: {
-    prerender: {
-      routes: [
-        '/'
-      ],
-      crawlLinks: true,
-      autoSubfolderIndex: false
-    }
+    preset: 'vercel'
   },
 
   eslint: {
@@ -55,12 +55,7 @@ export default defineNuxtConfig({
       { code: 'uz', name: 'Oʻzbek', language: 'uz', file: 'uz.json' }
     ],
     strategy: 'prefix',
-    defaultLocale: 'en',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root'
-    }
+    defaultLocale: 'en'
   },
 
   icon: {
