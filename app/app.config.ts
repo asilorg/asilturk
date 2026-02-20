@@ -39,8 +39,8 @@ export default defineAppConfig({
   },
   footer: {
     credits: `Copyright • © 2025 - ${new Date().getFullYear()} Asilbek Madiev`,
-    colorMode: false
-    // links: [
+    colorMode: false,
+    links: [
     //   {
     //     'icon': 'i-simple-icons-discord',
     //     'to': 'https://go.nuxt.com/discord',
@@ -59,7 +59,7 @@ export default defineAppConfig({
     //     'target': '_blank',
     //     'aria-label': 'Nuxt UI on GitHub'
     //   }
-    // ]
+    ]
   },
   toc: {
     title: 'Table of Contents',
