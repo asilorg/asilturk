@@ -36,16 +36,6 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-07-11',
 
-  nitro: {
-    prerender: {
-      routes: [
-        '/**'
-      ],
-      crawlLinks: true,
-      autoSubfolderIndex: false
-    }
-  },
-
   eslint: {
     config: {
       stylistic: {
