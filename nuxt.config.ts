@@ -12,14 +12,8 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n'
   ],
 
-  ssr: true,
-
   devtools: {
     enabled: true
-  },
-
-  app: {
-    baseURL: '/'
   },
 
   css: ['~/assets/css/main.css'],
@@ -31,13 +25,20 @@ export default defineNuxtConfig({
           searchDepth: 1
         }
       }
-    }
+    },
+    experimental: { sqliteConnector: 'native' }
   },
 
   compatibilityDate: '2024-07-11',
 
   nitro: {
-    preset: 'vercel'
+    prerender: {
+      routes: [
+        '/'
+      ],
+      crawlLinks: true,
+      autoSubfolderIndex: false
+    }
   },
 
   eslint: {
