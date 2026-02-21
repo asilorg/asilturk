@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     },
     database: {
       type: 'sqlite',
-      filename: ':memory:'
+      filename: '/tmp/content.db'
     }
   },
 
