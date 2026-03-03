@@ -19,7 +19,7 @@ hero:
       description: Umumiy ildizlar, tillar va jonli, rang-barang madaniyatni kashf eting.
     - icon: i-streamline-color:islam-flat
       title: "Bir Til, Koʻp Millatlar: Turk Dunyosini kashf eting."
-      description: "Journey across continents into a constellation of cultures united by history and language. This is your digital gateway to the heart of the dynamic Turkic realm."
+      description: "Qit’alar bo‘ylab, tarix va til bilan birlashgan madaniyatlar yulduz turkumiga sayohat qiling. Bu — jo‘shqin turkiy olam qalbiga eltuvchi raqamli darvozangiz."
     - icon: i-streamline-plump-color:world-flat
       title: Yangi Dunyoni Oching.
       description: "Sibir chuqurlaridan O'rta dengiz sohillarigacha — turk dunyosini shakllantirgan xalqlar va madaniyatlarni kashf eting. Sizni boy va o'zaro bog'langan merosga olib boradigan har tomonlama qo'llanma kuting."
@@ -37,7 +37,7 @@ features:
     icon: i-circle-flags:kz
     to: /docs/common/turkic-peoples
   - title: O'zbekiston
-    description: The cradle of ancient Silk Road civilization, home to legendary cities like Samarkand and Bukhara.
+    description: Qadimgi Buyuk Ipak yo‘li sivilizatsiyasining beshigi, Samarqand va Buxoro kabi afsonaviy shaharlarning vatani.
     icon: i-circle-flags:lang-uz
     to: /docs/common/turkic-peoples
   - title: Ozarbayjon

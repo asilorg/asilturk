@@ -11,15 +11,16 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "^10.2.1",
     "@iconify-json/lucide": "^1.2.89",
     "@iconify-json/simple-icons": "^1.2.70",
     "@iconify-json/vscode-icons": "^1.2.40",
     "@nuxt/content": "^3.11.2",
     "@nuxt/image": "^2.0.0",
     "@nuxt/ui": "^4.4.0",
+    "@nuxtjs/i18n": "^10.2.1",
     "@nuxtjs/mcp-toolkit": "0.6.3",
     "@nuxtjs/mdc": "^0.20.1",
+    "@vercel/analytics": "^1.6.1",
     "@vueuse/core": "^14.2.0",
     "better-sqlite3": "^12.6.2",
     "minimark": "^0.2.0",
