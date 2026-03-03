@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
 import * as nuxtUiLocales from '@nuxt/ui/locale'
-import { Analytics } from '@vercel/analytics/next'
+import { Analytics } from '@vercel/analytics/nuxt'
 
 const { seo } = useAppConfig()
 const { locale } = useI18n()
