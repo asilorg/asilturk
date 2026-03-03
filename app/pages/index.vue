@@ -29,7 +29,7 @@ useSeoMeta({
       orientation="horizontal"
       :ui="{
         container: 'pb-0 sm:pb-0 lg:py-0',
-        title: 'lg:mt-16 md:text-5xl',
+        title: 'lg:mt-16 md:text-6xl',
         links: 'lg:mb-16',
         description: 'text-balance'
       }"

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
 import * as nuxtUiLocales from '@nuxt/ui/locale'
+import { Analytics } from '@vercel/analytics/next'
 
 const { seo } = useAppConfig()
 const { locale } = useI18n()
@@ -48,6 +49,7 @@ provide('navigation', navigation)
 </script>
 
 <template>
+  <Analytics />
   <UApp>
     <NuxtLoadingIndicator color="var(--ui-primary)" />
     <AppBanner />
