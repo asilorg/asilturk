@@ -63,13 +63,17 @@ export default defineNuxtConfig({
     provider: 'iconify'
   },
 
+  image: {
+    provider: 'ipx'
+  },
+
   llms: {
-    domain: 'https://docs-template.nuxt.dev/',
-    title: 'Nuxt Docs Template',
-    description: 'A template for building documentation with Nuxt UI and Nuxt Content.',
+    domain: 'https://turkion.org/',
+    title: 'Turkion',
+    description: 'Open-source digital encyclopedia of the Turkic world.',
     full: {
-      title: 'Nuxt Docs Template - Full Documentation',
-      description: 'This is the full documentation for the Nuxt Docs Template.'
+      title: 'Turkion - Full Documentation',
+      description: 'Full documentation for Turkion — the open-source digital encyclopedia of the Turkic world.'
     },
     sections: [
       {
@@ -80,10 +84,10 @@ export default defineNuxtConfig({
         ]
       },
       {
-        title: 'Explore timeline',
+        title: 'Explore',
         contentCollection: 'docs_en',
         contentFilters: [
-          { field: 'path', operator: 'LIKE', value: '/essentials%' }
+          { field: 'path', operator: 'LIKE', value: '/common%' }
         ]
       }
     ]
